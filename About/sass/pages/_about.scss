@@ -1,0 +1,105 @@
+
+.band-information{
+    height: 80vh;
+}
+.img-container{
+    padding-top: 2.5rem;
+    text-align: center;
+    overflow: hidden;
+
+    .img-container__aic-logo{
+        transition: all ease 8.5s;
+        height: 10%;
+    }
+    .img-container__aic-logo:hover{
+        transform: rotate(360deg);
+    }
+}
+.band-information__main-heading{
+    color: $color-dark-white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: $font-slim;
+    margin-bottom: 4rem;
+}
+
+.general-information{
+    margin-bottom: 4rem;
+
+    .band-info{
+        color: $color-dark-white;
+        text-align: justify;
+        font-size: 2rem;
+        padding-left: 2em;
+        padding-right: 2em;
+        line-height: 1.5;
+    }
+    a{
+        color: $color-dark-white;
+        text-decoration: none;
+        font-style: italic;
+        transition: all ease-in-out 0.3s;
+
+        &:hover{
+            color: $color-dark-beige;
+        }
+    }
+    
+}
+
+.history-keypoints{
+    margin-bottom: 4rem;
+    .history-keypoints__sub-heading{
+        color: $color-dark-white;
+        font-size: 3em;
+        font-weight: lighter;
+        padding-left: 1.35em;
+        margin-bottom: 1rem;
+    }
+    ul{
+        padding-left: 4em;
+        list-style-type: none;
+        li{
+            line-height: 1.5;
+            font-size: 2rem;
+            color: $color-dark-white;
+        }
+    }
+    .italic-styling{
+        font-style: italic;
+    }
+}
+.band-members__mh{
+    color: $color-dark-white;
+    font-weight: $font-slim;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.band-members__imgs{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: fit-content;
+}
+.band-members__img{
+    
+    margin-right: 2rem;
+    
+    &:last-child{
+        margin-right: 0;
+    }
+    img{   
+        height: 20rem;
+    }
+    .band-members__jc,.band-members__sk,.band-members__mi,.band-members__wd,.band-members__ms,.band-members__ls{
+        text-align: center;
+        color: $color-dark-white;
+        font-size: 1.5rem;
+        
+    }
+    
+    
+}
+
+

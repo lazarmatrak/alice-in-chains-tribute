@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 20vh;
+}
+
+.header__main-navbar {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.header__main-title {
+  padding-top: 2rem;
+  color: #e4e0e0;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8rem;
+  letter-spacing: 2.75rem;
+  margin-bottom: 2.5rem;
+  transition: ease-in-out 0.5s;
+}
+.header__main-title:hover {
+  transform: scaleX(1.25) scaleY(1.25);
+}
+
+.header__main-navbar-item {
+  list-style: none;
+  display: inline-block;
+  font-size: 1.75rem;
+  margin-right: 5rem;
+  color: #e4e0e0;
+}
+.header__main-navbar-item:last-child {
+  margin-right: 0;
+}
+.header__main-navbar-item a {
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #e4e0e0;
+  transition: ease-in-out 0.3s;
+  display: inline-block;
+}
+.header__main-navbar-item a:hover {
+  transform: scaleX(1.5) scaleY(1.5);
+}
+.header__main-navbar-item a:active {
+  color: rgba(255, 196, 0, 0.651);
+}
+
+.header {
+  margin-bottom: 10rem;
+}
+
+.discography-mh {
+  color: #e4e0e0;
+  font-weight: lighter;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 8rem;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.discography {
+  margin-left: 2rem;
+}
+.discography .discography__list {
+  perspective: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.discography .discography__list .discography__list-item {
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.discography .discography__list .discography__list-item a {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.discography .discography__list .discography__list-item .album-cover {
+  height: 20rem;
+  width: 20rem;
+  transition: ease-in-out 0.5s;
+  border-radius: 50%;
+}
+.discography .discography__list .discography__list-item .album-cover:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+.album-main-title {
+  color: #e4e0e0;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.album-main-paragraph {
+  color: #e4e0e0;
+  line-height: 1.5;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=main.css.map */

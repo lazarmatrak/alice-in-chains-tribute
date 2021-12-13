@@ -1,0 +1,59 @@
+.header{
+    margin-bottom: 10rem;
+}
+
+
+.discography-mh{
+    color:$color-dark_white;
+    font-weight: $font-slim;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 8rem;
+    text-align: center;
+    font-size: 4rem;
+}
+.discography{
+    margin-left: 2rem;
+    .discography__list{
+        perspective: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+
+        .discography__list-item{
+            list-style: none;
+            a{
+                display: inline-block;
+                margin-bottom: 2rem;
+            }
+
+            text-align: center;
+            margin-right: 2rem;
+            margin-bottom: 2rem;
+
+            .album-cover{
+                height: 20rem;
+                width: 20rem;
+                transition: ease-in-out 0.5s;
+                border-radius: 50%;
+                
+                &:hover{
+                    transform: scaleX(1.10) scaleY(1.10)
+                }
+            }
+        }
+    }
+}
+.album-main-title{
+    color: $color-dark_white;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+.album-main-paragraph{
+    color: $color-dark_white;
+    line-height: 1.5;
+    font-size: 2rem;
+    text-align: justify;
+}

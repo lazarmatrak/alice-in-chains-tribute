@@ -1,0 +1,52 @@
+.header{
+    height: 20vh;
+}
+.header__main-navbar{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.header__main-title{
+    padding-top: 2rem;
+    color: $color-dark_white;
+    font-weight:lighter;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 8rem;
+    letter-spacing: 2.75rem;
+    margin-bottom: 2.5rem;
+    transition: ease-in-out 0.5s;
+    
+    &:hover{
+        transform: scaleX(1.25) scaleY(1.25);
+    }
+}
+
+.header__main-navbar-item{
+    list-style: none;
+    display: inline-block;
+    font-size: 1.75rem;
+    margin-right: 5rem;
+    color: $color-dark_white;
+    
+    &:last-child{
+        margin-right: 0;
+    }
+
+
+    a{
+        text-transform: uppercase;
+        font-weight: lighter;
+        text-decoration: none;
+        color: $color-dark_white;
+        transition: ease-in-out 0.3s;
+        display: inline-block;
+    }
+    
+    a:hover{
+        transform: scaleX(1.5) scaleY(1.5);
+    }
+
+    a:active{
+        color: $color-dark_beige;
+    }
+}

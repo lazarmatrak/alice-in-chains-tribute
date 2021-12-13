@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 20vh;
+}
+
+.header__main-navbar {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.header__main-title {
+  padding-top: 2rem;
+  color: #e4e0e0;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8rem;
+  letter-spacing: 2.75rem;
+  margin-bottom: 2.5rem;
+  transition: ease-in-out 0.5s;
+}
+.header__main-title:hover {
+  transform: scaleX(1.25) scaleY(1.25);
+}
+
+.header__main-navbar-item {
+  list-style: none;
+  display: inline-block;
+  font-size: 1.75rem;
+  margin-right: 5rem;
+  color: #e4e0e0;
+}
+.header__main-navbar-item:last-child {
+  margin-right: 0;
+}
+.header__main-navbar-item a {
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #e4e0e0;
+  transition: ease-in-out 0.3s;
+  display: inline-block;
+}
+.header__main-navbar-item a:hover {
+  transform: scaleX(1.5) scaleY(1.5);
+}
+.header__main-navbar-item a:active {
+  color: rgba(255, 196, 0, 0.651);
+}
+
+.band-information {
+  height: 80vh;
+}
+
+.img-container {
+  padding-top: 2.5rem;
+  text-align: center;
+  overflow: hidden;
+}
+.img-container .img-container__aic-logo {
+  transition: all ease 8.5s;
+  height: 10%;
+}
+.img-container .img-container__aic-logo:hover {
+  transform: rotate(360deg);
+}
+
+.band-information__main-heading {
+  color: #e4e0e0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-bottom: 4rem;
+}
+
+.general-information {
+  margin-bottom: 4rem;
+}
+.general-information .band-info {
+  color: #e4e0e0;
+  text-align: justify;
+  font-size: 2rem;
+  padding-left: 2em;
+  padding-right: 2em;
+  line-height: 1.5;
+}
+.general-information a {
+  color: #e4e0e0;
+  text-decoration: none;
+  font-style: italic;
+  transition: all ease-in-out 0.3s;
+}
+.general-information a:hover {
+  color: rgba(255, 196, 0, 0.651);
+}
+
+.history-keypoints {
+  margin-bottom: 4rem;
+}
+.history-keypoints .history-keypoints__sub-heading {
+  color: #e4e0e0;
+  font-size: 3em;
+  font-weight: lighter;
+  padding-left: 1.35em;
+  margin-bottom: 1rem;
+}
+.history-keypoints ul {
+  padding-left: 4em;
+  list-style-type: none;
+}
+.history-keypoints ul li {
+  line-height: 1.5;
+  font-size: 2rem;
+  color: #e4e0e0;
+}
+.history-keypoints .italic-styling {
+  font-style: italic;
+}
+
+.band-members__mh {
+  color: #e4e0e0;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.band-members__imgs {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.band-members__img {
+  margin-right: 2rem;
+}
+.band-members__img:last-child {
+  margin-right: 0;
+}
+.band-members__img img {
+  height: 20rem;
+}
+.band-members__img .band-members__jc, .band-members__img .band-members__sk, .band-members__img .band-members__mi, .band-members__img .band-members__wd, .band-members__img .band-members__ms, .band-members__img .band-members__ls {
+  text-align: center;
+  color: #e4e0e0;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
